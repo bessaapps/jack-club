@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import ChakraContext from "@/components/context/ChakraContext";
 
 export const metadata = {
   title: "Sin City Jacks",
@@ -7,10 +7,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ChakraProvider>
+    <ChakraContext>
       <html lang={"en"}>
         <body>{children}</body>
       </html>
-    </ChakraProvider>
+    </ChakraContext>
   );
 }
