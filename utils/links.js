@@ -42,10 +42,10 @@ export const navigationLinks = [
     anchor: "Code of Conduct",
     href: "/code-of-conduct",
   },
-  {
-    anchor: "Membership",
-    href: "/membership",
-  },
+  // {
+  //   anchor: "Membership",
+  //   href: "/membership",
+  // },
 ];
 
 export const legalLinks = [
