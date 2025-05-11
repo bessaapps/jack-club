@@ -36,7 +36,7 @@ export const socialLinks = [
 export const navigationLinks = [
   {
     anchor: "Experience Jacks",
-    href: "/register",
+    href: "https://calendly.com/sincityjacks",
   },
   {
     anchor: "Code of Conduct",
