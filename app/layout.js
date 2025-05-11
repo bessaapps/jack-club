@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <ChakraContext>
       <html lang={"en"}>
         <body>
-          <Grid gridTemplateRows={"1fr auto"} h={"100vh"} gap={4} py={8}>
+          <Grid gridTemplateRows={"1fr auto"} h={"100vh"} gap={4} pt={8}>
             <GridItem>
               <Container>
                 <Header />
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
               </Container>
             </GridItem>
             <GridItem>
-              <Container>
+              <Container mb={8}>
                 <Footer />
               </Container>
             </GridItem>

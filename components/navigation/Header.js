@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <Stack gap={4} mb={4}>
         <Link href={"/"} title={"Sin City Jacks"}>
-          <Heading as={"h1"} textTransform={"uppercase"}>
+          <Heading as={"p"} textTransform={"uppercase"}>
             Sin
             <br />
             City
@@ -18,13 +18,8 @@ export default function Header() {
         </Link>
         <Divider />
         <Menu />
-        <AspectRatio maxW={75} ratio={1}>
-          <Image
-            src={Logo}
-            alt={"Sin City Jacks"}
-            objectFit={"cover"}
-            style={{ mixBlendMode: "color-burn" }} // todo: Edit in Photoshop Instead
-          />
+        <AspectRatio maxW={100} ratio={1}>
+          <Image src={Logo} alt={"Sin City Jacks"} objectFit={"cover"} />
         </AspectRatio>
       </Stack>
     </header>
